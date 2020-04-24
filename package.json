@@ -1,0 +1,37 @@
+{
+  "name": "vueProject",
+  "version": "1.0.0",
+  "description": "vueDescription",
+  "author": "smol",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "config": "^3.0.1",
+    "cookieparser": "^0.1.0",
+    "cross-env": "^7.0.2",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.15",
+    "md5": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "qs": "^6.9.1",
+    "vuelidate": "^0.7.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}
